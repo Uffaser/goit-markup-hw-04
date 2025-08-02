@@ -108,7 +108,7 @@ img {
     color: #404BBF;
 }
 
-.nav-list-itemgi .link::after {
+.nav-list-item .link::after {
     content: '';
     width: 100%;
     height: 4px;
