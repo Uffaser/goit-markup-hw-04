@@ -369,6 +369,10 @@ img {
 }
 
 .portfolio-img-container:hover {
+    
+}
+
+.portfolio-img-container {
     position: relative;
     overflow: hidden;
 }
