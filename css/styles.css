@@ -359,43 +359,38 @@ img {
 .portfolio-card {
     background-color: #ffffff;
     width: calc((100% - 48px) / 3);
-    position: relative;
-    overflow: hidden;
     cursor: pointer;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .portfolio-card:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    ;
+    transform: translateY(0%)
+}
+
+.portfolio-img-container:hover {
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio-card-overley {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #4d5ae5;;
-    height: 300px;
-    padding: 0 32px;
-    padding-top: 40px;
+    height: 100%;
+    width: 100%;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
     transform: translateY(100%);
-    transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card:hover .portfolio-card-overley {
     transform: translateY(0);
-}
-
-.portfolio-container {
-    z-index: 999;
-    position: relative;
-    background-color: #fff;
-
 }
 
 .portfolio-card-title {
