@@ -93,7 +93,6 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
     color: #2E2F42;
     display: block;
     padding-top: 24px;
@@ -104,7 +103,7 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-item .link:active:after {
+.nav-list-item .link:active::after {
     content: '';
     width: 100%;
     height: 4px;
