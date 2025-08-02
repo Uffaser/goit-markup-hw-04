@@ -108,7 +108,7 @@ img {
     color: #404BBF;
 }
 
-.nav-list-item .link:active::after {
+.link:active::after {
     content: '';
     width: 100%;
     height: 4px;
@@ -130,7 +130,7 @@ img {
 }
 
 .contasts .link {
-    font-weight: inherit;
+    font-weight: 16px;
     color: #434455;
 }
 
